@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Arabic", Tahoma;
+}
+
+.container .container-center {
+  font-family: "Lalezar", Tahoma;
+}
+
+.container form :where(input, button) {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.container form input {
+  border: 1px solid #999;
+}
+.container .qr-code {
+  border: 1px solid #999;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
+.hidden{
+  display: none;
+}
